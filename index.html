@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="build/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" />
+    <link
+      rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
+      media="all"
+    />
+    <title>GMAIL CLONE</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="left">
+          <div><img class="header-icon" src="https://www.pikpng.com/pngl/b/38-384769_hamburger-menu-icon-menu-icon-png-grey-clipart.png" /></div>
+          <div class="gmail-icon"><img class="gb_va" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x.png" srcset="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x.png 1x, https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x.png 2x "  style="width:109px;height:40px" ></div>
+             <!-- <div><img class="header-icon lg" src="images/gmail-icon.png" /></div>
+          <div><p>Gmail</p></div> -->
+        </div>
+
+        <div class="middle">
+          <input autocomplete="off" id="search" type="text" placeholder="Search mail" />
+          <div class="search-displayer"></div>
+        </div>
+
+        <div class="right">
+          <img class="header-icon" src="images/question-icon.png" />
+          <img class="header-icon" src="images/settings-icon.png" />
+          <img class="header-icon" src="images/apps-icon.png" />
+          <img id class="logo" class="header-icon lg" src="https://post.greatist.com/wp-content/uploads/sites/3/2020/02/325466_1100-800x825.jpg" />
+        </div>
+      </header>
+      
+      <!-- START LEFT ASIDE BAR -->
+      <aside class="sidebar">
+        <div class="compose">
+          <img src="https://www.gstatic.com/images/icons/material/colored_icons/2x/create_32dp.png" />Compose
+        </div>
+
+        <div class="menu">
+          <div class="inbox left-tag">
+            <img src="./images/inbox-icon.png" />
+            <span class="inbox">Inbox</span>
+          </div>
+          <div class="starred left-tag">
+            <img src="./images/star-icon.png" />
+            <span>Starred</span>
+          </div>
+          <div class="snoozed left-tag">
+            <img src="https://www.gstatic.com/images/icons/material/system/2x/watch_later_black_20dp.png" />
+            <span>Snoozed</span>
+          </div>
+          <div class="important left-tag">
+            <img src="https://www.gstatic.com/images/icons/material/system/2x/label_important_black_20dp.png" />
+            <span>Important</span>
+          </div>
+          <div class="sent left-tag">
+            <img src="https://www.gstatic.com/images/icons/material/system/2x/send_black_20dp.png" />
+            <span>Sent</span>
+          </div>
+              <div class="trash left-tag">
+                <img src="./images/trash-icon.png" />
+                <span>Trash</span>
+              </div>
+                  <div class="draft left-tag">
+                    <img src="https://www.gstatic.com/images/icons/material/system/2x/insert_drive_file_black_20dp.png" />
+                    <span>Draft</span>
+                  </div>
+              <!-- categories dropdown -->
+              <div class="categories left-tag">
+                <img src="https://www.gstatic.com/images/icons/material/system/2x/insert_drive_file_black_20dp.png" />
+                <span class="dropbtn">Categories</span>
+              </div>
+              <div id="myDropdown" class="dropdown-content">
+                <div class="social left-tag">            
+                  <img src="https://www.gstatic.com/images/icons/material/system/2x/people_black_20dp.png" />
+                  Social</div>
+                <div class="updated left-tag">           
+                  <img src="https://www.gstatic.com/images/icons/material/system/2x/info_black_20dp.png" />
+                  Updated</div>
+                <div class="forums left-tag">            
+                  <img src="https://www.gstatic.com/images/icons/material/system/2x/forum_black_20dp.png" />
+                  Forums</div>
+                <div class="promotions left-tag">           
+                  <img src="https://www.gstatic.com/images/icons/material/system/2x/local_offer_black_20dp.png" />
+                   Promotions</div>
+            </div>
+          <!-- <div class="spam left-tag">
+            <img src="images/spam-icon.png" />
+            <span>Spam</span>
+          </div> -->
+        </div>
+        <div class="meet">
+          <p>Meet</p>
+          <div class="left-tag">
+            <img src="./images/video-icon.png" />
+            <span>Start a meeting</span>
+          </div>
+          <div class="left-tag">
+            <img src="https://www.gstatic.com/images/icons/material/system/2x/keyboard_black_20dp.png" />
+            <span>Join a meeting</span>
+          </div>
+        </div>
+        <div class="hangouts">
+          <p>Hangouts</p>
+          <div class="hangout-user">
+            <div>
+              <img src="https://blog.emojipedia.org/content/images/2017/08/Burgemoji.png" />
+              <span>Peter</span>
+            </div>
+            <div>
+              <img src="./images/plus-icon.png" />
+            </div>
+          </div>
+          <hr style="width: 90%" />
+          <div class="hangout-user users">
+            <div style="flex: 1">
+              <img src="https://blog.emojipedia.org/content/images/2017/08/Burgemoji.png" />
+            </div>
+            <div style="flex: 4">
+              <p style="margin: 0">Peter</p>
+              <p style="margin: 0">Invitation sent</p>
+            </div>
+          </div>
+          <div class="hangout-user users">
+            <div style="flex: 1">
+              <img src="https://www.pngfind.com/pngs/m/31-311444_emoji-ios10-smileys-source-emoji-girl-hd-png.png" />
+            </div>
+            <div style="flex: 4">
+              <p style="margin: 0">Nancy</p>
+              <p style="margin: 0">Thank you!</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+  
+      <!-- END LEFT ASIDE BAR -->
+      <main>
+        <!-- Section tool start -->
+        <section class="tool">
+          <div class="tools-left">
+            <div class="return"><i class="fas fa-arrow-left"></i></div>
+            <div class="email-checkbox">
+              <input type="checkbox" id="selectAll" title="Select All" />
+              <i class="fas fa-caret-down"></i>
+              <div class="hidden-tools">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fas fa-archive"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-exclamation-circle"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-trash"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-clock"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-check-circle"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-people-carry"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-tag"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="refresh-btn">
+              <i class="fas fa-redo-alt"></i>
+            </div>
+            <div class="tools-more">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+          <div class="pagination">
+            <div class="current-page">
+              <!-- <span class="page-range"></span> of <span class="total-emails"></span> -->
+            </div>
+            <div class="page-control">
+              <div class="page-left" active="false"><i class="fas fa-chevron-left"></i></div>
+              <div class="page-right" active="true"><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="page-keyboard">
+              <i class="fas fa-keyboard" style="opacity: 0.54;"></i>
+            </div>
+          </div>
+        </section>
+        <!-- Section tool end -->
+        <section class="mail-window inbox">
+          <section class="tab">
+            <div class="tabs-hover">
+              <i class="fas fa-inbox"></i>
+              Primary
+              <div class="bottom"></div>
+            </div>
+            <div class="tabs-hover">
+              <i class="fas fa-user-friends"></i>
+              Social
+              <div class="bottom"></div>
+            </div>
+            <div class="tabs-hover">
+              <i class="fas fa-tag"></i>
+              Promotions
+              <div class="bottom"></div>
+            </div>
+            <div class="tabs-hover">
+              <i class="fas fa-exclamation-circle"></i>
+              Updates
+              <div class="bottom"></div>
+            </div>
+          </section>
+          <!-- email list start here! -->
+          <section class="email">
+              <div class="email-list-wrapper" status="template">
+                <div class="email-list">
+                  
+                  <div class="email-titles">
+                    <div class="dots-img"></div>
+
+                    <div class="email-checkbox">
+                      <div>
+                        <input type="checkbox" />
+                      </div>
+                    </div>
+
+                      <div class="star-image-wrapper">
+                        <i class="email-star"></i>
+                      </div>
+                
+                    <div class="sender-name">sender-name</div>
+                  </div>
+
+                    <div class="email-text">
+                      <div class="sender-email">sender-email</div>
+
+                      <div class="message-section">
+                        <div class="message-title">message-title</div>
+                          <span class="email-dash">-</span>
+                        <div class=" message">
+                          message
+                        </div>
+                      </div>
+                      
+                      <div class="email-time">email-time</div>
+
+                      <div class="hover-icons">
+                        <div class="email-archive"><i class="fa fa-archive"></i></div>
+                        <div class="email-delete"><i class="fa fa-trash"></i></div>
+                        <div class="email-mark-as-unread"><i class="fa fa-envelope"></i></div>
+                        <div class="email-snooze"><i class="fa fa-clock-o"></i></div>
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+          </section>
+          <section class="opened-email">
+            <div class="email-header">
+              <div class="left-email-header">
+                <h2 class="subject">subject</h2>
+                <div class="important"></div>
+                <div class="button-tab">
+                  <div class="email-label">email-label</div>
+                  <div class="clear-label">&#x00D7</div>
+                </div>
+              </div>
+              <div class="right-email-header">
+                <a href="#"><i class="fas fa-print"></i></a>
+                <a href="#"><i class="fas fa-external-link-square-alt"></i></a>
+              </div>
+            </div>
+            <div class="email-main">
+              <div class="sender-photo"><img src="https://ssl.gstatic.com/ui/v1/icons/mail/profile_mask_2x.png" alt="sender-photo"></div>
+              <div class="email-content">
+                <!-- email information -->
+                <div class="email-info">
+                  <div class="sender-info">
+                    <span class="sender-full-name">sender-full-name</span> <span class="sender-email-open">sender-email-open</span>
+                  </div>
+                  <div class="date-and-tools">
+                    <span class="time-date-openned">time-date-openned</span>
+                    <div class="star">	<i class="far fa-star"></i> </div>
+                    <div class="reply"> <i class="fas fa-reply"></i> </div>
+                    <div class="more-tools"> <i class="fas fa-ellipsis-v"></i> </div>
+                  </div>
+                </div>
+                <div class="receiver">me</div>
+                <!-- message -->
+                <div class="message-open" ></div>
+                <div class="button-wrapper">
+                  <button class="reply"><i class="fas fa-reply"></i> Reply</button>
+                  <button class="forward"><div class="forward-icon"></div> Forward</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+         <!-- COMPOSE WINDOW -->
+        <div class="window">
+          <div class="compose-header"><div class="close-icon"><i class="fas fa-times"></i></div>
+            <p>New message</p>
+          </div>
+          <form onsubmit="compose-form">
+            <div class="compose-body">
+              <div class="form-group">
+                <input type="email" class="form-control" id="compose-to" placeholder="To" required/>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="compose-subject" placeholder="Subject" required/>
+              </div>
+              <div class="form-group">
+                <textarea class="form-content-control" id="compose-message" rows="10" required></textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- END COMPOSE WINDOW -->
+      </main>
+    </div>
+    <script type="text/javascript" src="./build/index.js"></script>
+  </body>
+</html>
