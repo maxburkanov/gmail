@@ -2,7 +2,7 @@
 this is fake gmail page <br/>
 It was built using npm webpack <br/>
 From Scratch and  <br/>
-Vanila Javascript <br/>
+#### Vanila Javascript <br/>
 Main functionalities work <br/>
 ### ex.
 Open email <br/>
