@@ -1,22 +1,22 @@
 # gmail
-this is fake gmail page
-It was built using npm webpack
-From Scratch and 
-Vanila Javascript
-Main functionalities work
+this is fake gmail page <br/>
+It was built using npm webpack <br/>
+From Scratch and  <br/>
+Vanila Javascript <br/>
+Main functionalities work <br/>
 ### ex.
 Open email <br/>
-Go back
-Add to trash
-chech Trash
-open inbox
-Go to Tabs (Primary, Social...)
-And the main thing, 
+Go back <br/>
+Add to trash <br/>
+chech Trash <br/>
+open inbox <br/>
+Go to Tabs (Primary, Social...) <br/>
+And the main thing, <br/>
 ...
 Search Engine searches throuh the emails and returns all emails matching the input 
-by Sender Name 
-by Sender @mail
-by title
+by Sender Name <br/>
+by Sender @mail <br/>
+by title <br/>
 by message content
 
 ```
