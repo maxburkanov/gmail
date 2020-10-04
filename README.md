@@ -5,7 +5,7 @@ From Scratch and
 Vanila Javascript
 Main functionalities work
 ### ex.
-Open email
+Open email 
 Go back
 Add to trash
 chech Trash
