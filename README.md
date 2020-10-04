@@ -12,8 +12,8 @@ chech Trash <br/>
 open inbox <br/>
 Go to Tabs (Primary, Social...) <br/>
 And the main thing, <br/>
-...
-Search Engine searches throuh the emails and returns all emails matching the input 
+... 
+#### Search Engine searches throuh the emails and returns all emails matching the input 
 by Sender Name <br/>
 by Sender @mail <br/>
 by title <br/>
