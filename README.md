@@ -1,7 +1,8 @@
 # gmail
 this is fake gmail page <br/>
 It was built using npm webpack <br/>
-From Scratch and  <br/>
+From Scratch and
+#### Has it's own Search Engine
 #### Vanila Javascript <br/>
 Main functionalities work <br/>
 ### ex.
