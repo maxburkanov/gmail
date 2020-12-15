@@ -1,6 +1,7 @@
 # gmail
 - ```Gmail clone ```<br/>
 - ```built using npm webpack``` <br/>
+- ```fetches Heroku API``` <br/>
 #### ```Own Search Engine```
 #### ```Vanila Javascript``` <br/>
 - ```Open email``` <br/>
